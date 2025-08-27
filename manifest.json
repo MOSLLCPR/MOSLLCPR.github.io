@@ -1,0 +1,21 @@
+{
+    "name": "Joel Meléndez Card",
+    "short_name": "JoelMelendez",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#222222",
+    "description": "Business card page for Joel Meléndez.",
+    "icons": [
+        {
+            "src": "images/Logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/Logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración básica del documento -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Card</title> <!-- Título que aparece en la pestaña del navegador -->
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  
+  <!-- Font Awesome para iconos - Si quieres otros iconos, cambia esta URL -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+    <!-- Manifest para PWA -->
+    <link rel="manifest" href="manifest.json">
+  
+  <!-- Estilos CSS externos -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<!-- === ESTRUCTURA HTML === -->
+<body>
+  <!-- Contenedor principal de la tarjeta -->
+  <div class="card">
+    
+    <!-- Sección de imágenes: banner y perfil superpuesta -->
+    <div class="image-container">
+      <!-- Banner con fondo tipo tarjeta -->
+      <div class="banner-card-bg">
+        <img src="images/Banner.png" alt="Banner" class="banner">
+      </div>
+      <!-- Imagen de perfil - CAMBIAR src="images/Profile.jpg" por tu foto -->
+      <img src="images/Profile.png" alt="Foto de perfil" class="profile-img">
+    </div>
+    
+    <!-- Información personal -->
+    <h1>Joel Meléndez Rivera</h1> <!-- CAMBIAR por tu nombre -->
+    <p class="titulo">Management Opportunities Services, LLC</p> <!-- CAMBIAR por tu ubicación -->
+    <p>Transformamos ideas en realidades sólidas, realizando proyectos de construcción y servicios de gestorías. En MOS LLC combinamos calidad, seguridad y confianza, convirtiéndonos en un aliado estratégico para cada proyecto.</p> <!-- CAMBIAR por tu descripción -->
+
+    <!-- Grilla de botones de contacto/redes sociales -->
+    <div class="button-grid">
+      <!-- Botón de servicios - ejecuta función JavaScript -->
+      <button class="button" onclick="mostrarServicios()">
+        <i class="fas fa-edit"></i> Servicios
+      </button>
+      
+      <!-- Botón de teléfono - CAMBIAR +1234567890 por tu número -->
+      <a class="button" href="tel:+17873095482">
+        <i class="fas fa-phone"></i> Llamar
+      </a>
+      
+      <!-- Botón de WhatsApp - CAMBIAR 1234567890 por tu número -->
+      <a class="button" href="https://wa.me/7873095482">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      
+      <!-- Botón de Instagram - CAMBIAR tuusuario por tu usuario -->
+      <!-- <a class="button" href="https://instagram.com/tuusuario">
+        <i class="fab fa-instagram"></i> Comming Soon!
+      </a> -->
+      
+      <!-- Botón de Facebook - CAMBIAR tuusuario por tu usuario -->
+      <!-- <a class="button" href="https://facebook.com/tuusuario">
+        <i class="fab fa-facebook"></i> Comming Soon!
+      </a> -->
+      
+      <!-- Botón de Email - CAMBIAR correo@ejemplo.com por tu email -->
+      <a class="button" href="mailto:Mosllc.admi@gmail.com">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+    </div>
+
+    <!-- Botón para compartir (Share) y agregar contacto -->
+    <div style="display: flex; gap: 10px; justify-content: center;">
+      <button class="button-wide share-contact" onclick="compartirEnlace()">
+        <i class="fas fa-share-alt"></i> Share
+      </button>
+      <button class="button-wide share-contact" onclick="agregarContacto()">
+        <i class="fas fa-user-plus"></i> Agregar contacto
+      </button>
+    </div>
+    
+    <!-- Créditos - CAMBIAR o eliminar si no quieres mostrar -->
+    <p class="powered-by">Powered by HA Technologies</p>
+  </div>
+
+  <!-- === JAVASCRIPT EXTERNO === -->
+  <script src="index.js"></script>
+</body>
+</html>
