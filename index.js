@@ -42,8 +42,8 @@ N:Meléndez;Joel;;;
 ORG:MOS LLC
 TEL;TYPE=CELL:7873095482
 EMAIL:Mosllc.admi@gmail.com
-URL:https://mosllc.github.io/
-ADR:;;Bayamón;Puerto Rico;;;
+URL:https://mosllcpr.github.io/
+ADR:;;Caguas;Puerto Rico;;;
 NOTE:Transformamos ideas en realidades sólidas, realizando proyectos de construcción y servicios de gestorías. En MOS LLC combinamos calidad, seguridad y confianza, convirtiéndonos en un aliado estratégico para cada proyecto.
 END:VCARD`;
 
