@@ -3,11 +3,9 @@
 function compartirEnlace() {
   const url = window.location.href;
   const title = document.title || "Business Card";
-  const text = "¡Mira mi tarjeta de contacto!";
   if (navigator.share) {
     navigator.share({
       title: title,
-      text: text,
       url: url
     }).catch(() => {
       alert("No se pudo compartir el enlace.");
